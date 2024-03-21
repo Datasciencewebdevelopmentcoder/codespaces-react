@@ -1,27 +1,15 @@
 import './App.css';
-
+import Navbar from './Navbar';
 function App() {
+  const title = "Hello"
+  const like = 50
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+      <Navbar/>
+      <div className="content">
+        <h1>{title}</h1>
+        <p>Liked {like} times</p>
+      </div>
     </div>
   );
 }
