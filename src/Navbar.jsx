@@ -8,7 +8,7 @@ const Navbar = function () {
             color: "white",
             backgroundColor: "#f1356d",
             borderRadius: '8px'
-        }}> New Blog</a>
+        }}> New Blog </a>
         </div>
         </nav>
     );
